@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables in Html</title>
+    <style>
+        .center{
+            margin: auto auto;
+            width: 50%;
+            background-color: lightgray;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        div{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Table Example</h1>
+    </div>
+    <div class="center">
+    <table border="1px">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th >Contact</th>
+                <th>ToExpand</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td>Shashank</td>
+                <td>20</td>
+                <td>1234567890</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Shekhar</td>
+                <td>20</td>
+                <td>1234567890</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
+<!-- Schedule Table -->
+
+ <div class="schedule">
+    <table cellpadding="10" border="2">
+        <tr>
+            <td rowspan="3" colspan="3">Day</td>
+            <td>Seminar</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Monday</td>
+        </tr>
+
+    </table>
+
+ </div>
+</body>
+</html>
+
+
+<!-- 
+cellpadding 
+colspan
+rowspan
+-->
